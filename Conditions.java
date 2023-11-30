@@ -4,19 +4,24 @@ public class Conditions {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int button = sc.nextInt();
 
-        if (a == b) {
-            System.out.println("The numbers are equal");
-        } else if (a > b) {
-            System.out.println("a is greater");
-        } else {
-            System.out.println("b is greater");
+        switch ((button)) {
+            case 1:
+                System.out.println("hello");
+                break;
+            case 2:
+                System.out.println("Namaste");
+                break;
+            case 3:
+                System.out.println("Bonjour");
+                break;
+            default:
+                System.out.println("Invalid Button");
+                break;
         }
 
         sc.close();
-
     }
 }
 
