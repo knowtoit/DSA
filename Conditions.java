@@ -16,7 +16,6 @@ public class Conditions {
         }
 
         sc.close();
-        ;
 
     }
 }
@@ -43,6 +42,21 @@ public class Conditions {
 // System.out.println("Even");
 // } else {
 // System.out.println("odd");
+// }
+
+// sc.close();
+
+// else-if condition
+// Scanner sc = new Scanner(System.in);
+// int a = sc.nextInt();
+// int b = sc.nextInt();
+
+// if (a == b) {
+// System.out.println("The numbers are equal");
+// } else if (a > b) {
+// System.out.println("a is greater");
+// } else {
+// System.out.println("b is greater");
 // }
 
 // sc.close();
