@@ -19,13 +19,21 @@ public class Loops {
         // } while (i < 11);
 
         // Sum of n natural numbers
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int sum = 0;
+        // for (int i = 0; i <= n; i++) {
+        // sum = sum + i;
+        // }
+        // System.out.print(sum + " ");
+        // sc.close();
+
+        // table of n number
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int sum = 0;
-        for (int i = 0; i <= n; i++) {
-            sum = sum + i;
+        for (int i = 1; i < 11; i++) {
+            System.out.println(n * i);
         }
-        System.out.print(sum + " ");
         sc.close();
     }
 }
